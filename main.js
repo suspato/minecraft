@@ -126,15 +126,15 @@ function blockUpdate(getImage){
         }   
        }
 
-       function right(){
+       function left(){
         if(playerX>0){
-         playerX=playerX+blockWidth
+         playerX=playerX-blockWidth
          canvas.remove(playerObject)
          playerUpdate()
         }   
        }
 
-       function left(){
+       function right(){
         if(playerX<800){
          playerX=playerX+blockWidth
          canvas.remove(playerObject)
